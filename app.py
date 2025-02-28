@@ -22,7 +22,7 @@ pyautogui.scroll(-1100)
 # 3 - Clicar no campo e digitar seu nome
 pyautogui.click(1477,-798,duration=2)
 pyautogui.typewrite('Thiago Alvaro',interval=0.1)
-sleep(2)
+sleep(1)
 # 4 - Clique em alerta, para gerar a alerta
 pyautogui.click(1487,-747,duration=2)
 
@@ -35,14 +35,14 @@ sleep(1)
 # 7 - descer até a secção para fazer os downloads
 pyautogui.scroll(-1300)
 # 8 - clicar no botão fazer download da planilha excel 
-pyautogui.click(419,-148,duration=2)
+pyautogui.click(419,-148,duration=4)
 #e no botao salvar
-pyautogui.click(557,-558,duration=2)
+pyautogui.click(557,-558,duration=4)
 
 # 10 - clicar no botão fazer download do arquivo excel
-pyautogui.click(601,-132,duration=2)
+pyautogui.click(601,-132,duration=4)
 #e no botao salvar
-pyautogui.click(557,-558,duration=2)
+pyautogui.click(557,-558,duration=4)
 # 11 - criar alertar " VOCE TERMINOU !".
 pyautogui.alert(text= 'AUTOMAÇÃO TERMINADA!', title='FIM DA AUTOMAÇÃO', button='ok')
 

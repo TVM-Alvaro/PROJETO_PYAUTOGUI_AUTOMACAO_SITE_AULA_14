@@ -42,5 +42,7 @@ pyautogui.click(557,-558,duration=2)
 # 10 - clicar no botão fazer download do arquivo excel
 pyautogui.click(601,-132,duration=2)
 #e no botao salvar
+pyautogui.click(557,-558,duration=2)
 # 11 - criar alertar " VOCE TERMINOU !".
+pyautogui.alert(text= 'AUTOMAÇÃO TERMINADA!', title='FIM DA AUTOMAÇÃO', button='ok')
 
